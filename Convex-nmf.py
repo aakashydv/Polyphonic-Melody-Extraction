@@ -1,6 +1,6 @@
 import librosa
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 from sklearn.cluster import KMeans
 y,sr=librosa.load('C:\\Users\\aakas\\PycharmProjects\\Music\\Bach10\\Bach10_v1.1\\01-AchGottundHerr\\01-AchGottundHerr.wav',sr=44100)
 inp = librosa.amplitude_to_db(np.abs(librosa.core.stft(y)),ref=np.min)
