@@ -1,8 +1,8 @@
 import numpy as np
 import librosa
-import os
 import matplotlib.pyplot as plt
 from keras.models import load_model
+import os
 import mir_eval
 
 # import tensorflow as tf
